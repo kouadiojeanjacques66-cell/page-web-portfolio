@@ -1,0 +1,163 @@
+   /* 1. configuration générale & police roboto */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+   /* 2. barre de navigation (en ligne)*/
+
+.en-tête {
+
+     background-color: #1e293b;
+     padding: 15px 0;
+     text-align: center;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.liste-nav {
+    list-style-type: none;  /*enleve les puces*/
+    margin: 0;
+    padding: 0;
+}
+
+.items-nav {
+    display: inline; /* intègre la barre de navigation en ligne*/
+    margin: 0 15px;
+}
+
+.lien-nav {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.lien-nav:hover {
+    color: #38bdf8;
+}
+
+    /* 3. contenu principal & sections*/
+
+.contenu-principal {
+     max-width: 900px;
+     margin: 30px auto;
+     padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+h2 {
+    color: #0284c7;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+   /* 4. video, tableau et lien cv */
+
+video {
+    max-width: 100%;
+    border-radius: 6px;
+    display: block;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #cbd5e1;
+}
+
+th {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+#cv a {
+    display: inline-block;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cv a:hover {
+    background-color: #0369a1;
+}
+   /*formilaire de contact*/
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #10b981;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #059669;
+}
+
+  /*pied de page (footer)*/
+
+footer {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 15;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
